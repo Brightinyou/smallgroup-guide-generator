@@ -1299,6 +1299,8 @@ class App(tk.Tk):
     def _save(self):
         if self._data is None:
             return
+        self.focus_set()        # IME 조합 중인 한글 강제 확정
+        self.update_idletasks() # 확정된 값이 StringVar에 반영될 때까지 대기
         fmt       = self.v_fmt.get()
         doc_title = self.v_doc_title.get()
         outname   = self.v_outname.get().strip()
@@ -1322,6 +1324,8 @@ class App(tk.Tk):
             messagebox.showerror(_t('저장 오류', 'Save Error'), str(e))
 
     def _copy(self):
+        self.focus_set()
+        self.update_idletasks()
         self.clipboard_clear()
         if self._data and self.v_fmt.get() != FMT_TXT:
             content = build_txt(self._data, self.v_doc_title.get())
