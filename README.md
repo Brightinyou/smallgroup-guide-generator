@@ -163,3 +163,17 @@ build.bat
 
 `~/.village_worship_cfg.json` — API Keys, save folder, last-used engine are saved here automatically.
 API Key, 저장 폴더, 마지막 사용 엔진이 자동 저장됩니다.
+
+---
+
+## 📄 License / 라이선스
+
+[PolyForm Noncommercial License 1.0.0](LICENSE) © 2026 Brightinyou
+
+비영리 목적이라면 자유롭게 쓰고 고치고 나눌 수 있습니다. 이 라이선스는 **자선단체·교육기관 같은 비영리 조직**의 사용을 허용된 목적으로 명시하므로, **교회와 선교단체**는 이 도구를 사용할 수 있습니다. 판매 등 상업적 이용은 허용되지 않습니다.
+
+Free for noncommercial use. Use by charitable organizations — including churches and mission organizations — is a permitted purpose under this license. Commercial use is not permitted.
+
+AI가 만든 교안은 **초안**입니다. 교회에 싣기 전에 반드시 사람이 확인하세요. / Generated guides are **drafts** — always review them before use.
+
+Claude·ChatGPT·Gemini 등 AI 서비스와 CLI 도구는 이 라이선스의 대상이 아니며, 각 서비스의 약관을 따릅니다. / AI services and CLI tools used by this app are governed by their own terms.
